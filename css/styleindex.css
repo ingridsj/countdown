@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -18,27 +18,35 @@ body {
     height: 80vh;
     align-items: center;
     justify-content: center;
-    
-    
 }
 h1 {
     color: #18EE00;
-    font-size: 4rem;
+    font-size: 5rem;
+    width: 350px;
 }
 p {
     color: grey;
-    font-size: 2rem;
+    font-size: 2.6rem;
+    font-weight: bolder;
     margin-top: 30px;
 }
 .dateInput {
-    margin: 10px 0;;
-    padding: 10px;
-    border-radius: 15px;
-    width: 15%;
+    font-variant: small-caps;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: gray;
+    background-color:#191A18;
+    margin: 10px;
+    padding: 15px;
+    width: 350px;
+    border-radius: 28px;
 }
 .startButton {
+    font-size: 2.5rem;
+    font-weight: bolder;
     background-color: #21EB00;
-    padding: 10px;
-    border-radius: 15px;
-    width: 16.5%;
+    margin: 10px;
+    padding: 15px;
+    width: 370px;
+    border-radius: 28px;
 }
