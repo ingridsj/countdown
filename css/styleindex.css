@@ -5,6 +5,10 @@
     border: 0;
     font-family: 'Roboto', sans-serif;
 }
+:root {
+    --colorGreen:#21EB00;
+    --colorGray: #a3a3a3;
+}
 html {
     font-size: 65%;
 }
@@ -20,12 +24,12 @@ body {
     justify-content: center;
 }
 h1 {
-    color: #18EE00;
+    color: var(--colorGreen);
     font-size: 5rem;
     width: 350px;
 }
 p {
-    color: grey;
+    color: var(--colorGray);
     font-size: 2.6rem;
     font-weight: bolder;
     margin-top: 30px;
@@ -34,7 +38,7 @@ p {
     font-variant: small-caps;
     font-size: 3rem;
     font-weight: bolder;
-    color: gray;
+    color: var(--colorGray);
     background-color:#191A18;
     margin: 10px;
     padding: 15px;
@@ -44,7 +48,7 @@ p {
 .startButton {
     font-size: 2.5rem;
     font-weight: bolder;
-    background-color: #21EB00;
+    background-color: var(--colorGreen);
     margin: 10px;
     padding: 15px;
     width: 370px;
