@@ -35,7 +35,8 @@ startButton.addEventListener("click", () => {
   if(!dateInput.value){
     window.alert("Please enter a valid date.")
   } else {
-    
+    let dateInput = document.querySelector(".dateInput")
+    window.location = "countdown.html"
   }
 
 })
@@ -56,6 +57,7 @@ To Do:
 [x] - A cada 1 segundo atualizar o contador
 [] - Esconder o input de inserir data e exibir apenas o contador
 [] - Inserir o contador no HTML 
+[x] - Fazer o contador ser atualizado a cada segundo
 [] - Quando o contador zerar ele deve pausar e exibir um alerta
 dentro do set interval a gnt vai pegar
 
