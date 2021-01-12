@@ -1,5 +1,5 @@
-let dateInput = document.querySelector(".dateInput")
-let startButton = document.querySelector(".startButton")
+let dateInput = document.querySelector(".date-input")
+let startButton = document.querySelector(".start-button")
 
 startButton.addEventListener("click", () => {
 

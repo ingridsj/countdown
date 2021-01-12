@@ -1,4 +1,5 @@
 let inputDate = localStorage.getItem("dateInput")
+let inputRestart = document.querySelector(".restart-button")
 
 function countdown() {
 
@@ -21,7 +22,15 @@ function countdown() {
     let differenceInMinutes =   60 - currentMin 
     let differenceInSeconds =  60 - currentSec 
 
+    document.querySelector(".days").innerHTML = differenceInDays
+    document.querySelector(".hours").innerHTML = differenceInHours
+    document.querySelector(".minutes").innerHTML = differenceInMinutes
+    document.querySelector(".seconds").innerHTML = differenceInSeconds
   }, 1000);
 
 }
 countdown()
+
+document.querySelector(".restart-button").addEventListener("click", function returnHomePage(){
+  window.location = "../index.html"
+})
