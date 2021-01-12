@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --colorPink: #C697B7;
+    --colorGray: #ABAAC5;
+    --colorWhite: #ffffff; 
+}
+html {
+    font-size: 65%;
+}
+body {
+    background-image: url("background.jpg");
+    background-color: black;
+    text-align: center;
+}
+.menu-bar {
+    color: var(--colorPink);
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px ;
+}
+.menu-bar h1{
+    font-size: 5rem;
+}
+.menu-bar .restart-button {
+    background-color: var(--colorPink);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--colorWhite);
+    margin: 10px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 30px;
+}
+section .title {
+    font-size: 5rem;
+    color: var(--colorGray);
+}
+section div {
+    margin: 20px 30px 30px 30px;
+}
+section .countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .countdown h1 {
+    font-size: 10rem;
+    color: var(--colorWhite);   
+}
+section .countdown p {
+    font-size: 5rem;
+    text-align: center;
+    color: var(--colorPink);
+}

@@ -6,13 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 :root {
-    --colorGreen:#21EB00;
-    --colorGray: #a3a3a3;
+    --colorPink: #C697B7;
+    --colorGray: #ABAAC5;
 }
 html {
     font-size: 65%;
 }
 body {
+    background-image: url("background.jpg");
     background-color: black;
     text-align: center;
 }
@@ -24,7 +25,7 @@ body {
     justify-content: center;
 }
 h1 {
-    color: var(--colorGreen);
+    color: var(--colorPink);
     font-size: 5rem;
     width: 350px;
 }
@@ -34,21 +35,21 @@ p {
     font-weight: bolder;
     margin-top: 30px;
 }
-.dateInput {
+.date-input {
     font-variant: small-caps;
     font-size: 3rem;
     font-weight: bolder;
     color: var(--colorGray);
-    background-color:#191A18;
+    background-color:#353434;
     margin: 10px;
     padding: 15px;
     width: 350px;
     border-radius: 28px;
 }
-.startButton {
+.start-button {
     font-size: 2.5rem;
     font-weight: bolder;
-    background-color: var(--colorGreen);
+    background-color: var(--colorPink);
     margin: 10px;
     padding: 15px;
     width: 370px;
