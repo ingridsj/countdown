@@ -7,6 +7,6 @@ startButton.addEventListener("click", () => {
     window.alert("Please enter a valid date.")
   } else {      
     localStorage.setItem("dateInput", dateInput.value)
-    window.location = "../source/countdown.html"
+    window.location = "../docs/countdown.html"
   }
 })

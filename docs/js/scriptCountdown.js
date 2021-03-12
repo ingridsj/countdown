@@ -32,5 +32,5 @@ function countdown() {
 countdown()
 
 document.querySelector(".restart-button").addEventListener("click", function returnHomePage(){
-  window.location = "../source/index.html"
+  window.location = "../docs/index.html"
 })
