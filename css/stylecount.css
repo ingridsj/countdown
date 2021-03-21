@@ -58,3 +58,25 @@ section .countdown p {
     text-align: center;
     color: var(--colorPink);
 }
+
+@media(max-width: 870px) {
+    html {
+        font-size: 50%;
+    }
+}
+@media(max-width: 750px) {
+    html {
+        font-size: 40%;
+    }
+}
+@media(max-width: 620px){
+    .menu-bar{
+        display: block;
+    }
+    .menu-bar h1 {
+        margin-bottom: 20px;
+    }
+    section .countdown {
+        display: block;
+    }
+}
