@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -55,4 +56,27 @@ p {
     padding: 15px;
     width: 370px;
     border-radius: 28px;
+}
+
+@media (max-width: 500px){
+    html {
+        font-size: 50%;
+    }
+    .date-input {
+        width: 300px;
+    }
+    .start-button {
+        width: 320px;
+    }
+}
+@media (max-width: 425px) {
+    html {
+        font-size: 45%;
+    }
+    .date-input {
+        width: 250px;
+    }
+    .start-button {
+        width: 270px;
+    }
 }
